@@ -4,7 +4,7 @@ import faiss
 import numpy as np
 
 # Initialisation du client OpenAI
-client = OpenAI(api_key='sk-proj-7RdMpFd7EzY56pDWEqueT3BlbkFJ677UrTKdVC8nZApPAONi')
+client = OpenAI(api_key='VOTRE_API_OPENAI')
 
 def query_faiss_index(query_embedding, top_k=5):
     index = faiss.read_index("faiss_index.index")
