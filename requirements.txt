@@ -1,0 +1,8 @@
+faiss-cpu
+numpy
+openai
+pdfplumber
+matplotlib
+seaborn
+scikit-learn
+networkx
